@@ -8,6 +8,7 @@ form.addEventListener('submit', e => {
   e.preventDefault();
   const inputValue = e.target.inputAddTodo.value.trim();
   if(inputValue.length){
+    ul.innerHTML = '';
     ul.innerHTML += `
       <li>
         <span>${inputValue}</span>
