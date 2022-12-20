@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Lista de Taréfas</h1>
+      <div class="search">
+        <input type="search" class="search-input" placeholder="Pesquisar" autofocus/>
+      </div>
+    </header>
+    <main>
+      <ul>
+        <!-- Itens da lista-->
+        <li>
+          <!-- Span com descrição do item-->
+          <span>Academia</span>
+          <span>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-trash delete"></i>
+          </span>
+        </li>
+        <!---->
+        <!-- Implementar expansão do item para descrição -->
+        <!-- <div class="item_todo__description hidden">
+          testeo de descrição do item acima
+        </div> -->
+        <li>
+          <span>Pagar contas</span>
+          <span>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-trash delete"></i>
+          </span>
+        </li>
+        <li>
+          <span>Fazer investimento</span>
+          <span>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-trash delete"></i>
+          </span>
+        </li>
+        <li>
+          <span>Lavar carro</span>
+          <span>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-trash delete"></i>
+          </span>
+        </li>
+      </ul>
+      <form action="">
+        <input type="text" placeholder="Adicionar tarefa" name="inputAddTodo" />
+        <button type="submit" class="btnAddTodo">Adicionar <i class="fas fa-plus-circle"></i></button>
+      </form>
+    </main>
+    <footer>Marcius Code</footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
