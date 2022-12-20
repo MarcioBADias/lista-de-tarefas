@@ -52,6 +52,14 @@ ul {
   margin: 20px 0;
 }
 
+p{
+  color: lightseagreen;
+  font-weight: bold;
+  list-style: none;
+  margin: 20px 0;
+  text-align: center; 
+}
+
 li {
   display: flex;
   justify-content: space-between;
